@@ -2,6 +2,8 @@ const express=require('express')
 const Insta=require('instamojo-nodejs')
 const bodyParser=require('body-parser')
 const app=express()
+
+
 app.use(express.static("./images"));
 const API_KEY = "test_86a5ce32953e14afc7e8b1099c3";
 
